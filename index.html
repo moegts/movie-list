@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie List</title>
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <header>
+        <h1>My Movie list</h1>
+    </header>
+    <main>
+        <section id="section1">
+            <fieldset>
+                <legend>New movie</legend>
+                <form id="formMovie">
+                    <label for="nameNew">Name</label>
+                    <input id="nameNew" type="text">
+                    <label for="imageNew">Image</label>
+                    <select name="Movies-list" id="imageNew">
+                        <option value="action">Action</option>
+                        <option value="adventure">Adventure</option>
+                        <option value="animation">Animation</option>
+                        <option value="comedy">Comedy</option>
+                        <option value="detective">Detective</option>
+                        <option value="fantasy">Fantasy</option>
+                        <option value="history">History</option>
+                        <option value="horror">Horror</option>
+                        <option value="musical">Musical</option>
+                        <option value="pirate">Pirate</option>
+                        <option value="romantic">Romantic</option>
+                        <option value="sci-fi">SCI-FI</option>
+                        <option value="war">War</option>
+                        <option value="western">Western</option>
+                    </select>
+                    <label for="releaseNew">Release</label>
+                    <input id="releaseNew" type="text">
+                </form>
+                <button id="but1" onclick="MemoryCard()" type="submit" form="formMovie" value="Submit">Save</button>
+                <button id="but2" type="submit" form="" value="Submit">Clear LS</button>
+            </fieldset>
+        </section>
+        <section id="sideList">
+
+        </section>
+    </main>
+    <footer>
+        <P>All right reserved 2021 &#169; ASAC</P>
+    </footer>
+    <script src="./js/app.js"></script>
+</body>
+</html>
